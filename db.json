@@ -1,0 +1,122 @@
+{
+  "role": [
+    {
+        "id": "1",
+        "code": "ADMIN",
+        "name": "Administrator",
+        "enabled": true
+    },
+    {
+        "id": "2",
+        "code": "USER",
+        "name": "Comprador",
+        "enabled": true     
+    }
+  ],
+  "user": [
+    {
+        "id": "1",
+        "username": "admin",
+        "password": "admin",
+        "enabled": true,
+        "roleId": "1"
+    },
+    {
+        "id": "2",
+        "username": "efuentesp",
+        "password": "password",
+        "enabled": true,
+        "roleId": "2"
+    }
+  ],
+  "permission": [
+      {
+          "id": "1",
+          "code": "*",
+          "name": "All Permissions",
+          "enabled": true
+      },
+      {
+        "id": "2",
+        "code": "ADD_PRODUCT",
+        "name": "Agregar Producto",
+        "enabled": true
+    }
+  ],
+  "permissions-assigned": [
+      {
+          "roleId": "1",
+          "permissionId": "1"
+      },
+      {
+        "roleId": "2",
+        "permissionId": "2"
+    }
+  ],
+  "category": [
+    {
+      "name": "Audio/Video",
+      "id": "1"
+    },
+    {
+      "name": "Telefonía",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Video Juegos"
+    },
+    {
+      "id": "4",
+      "name": "Computación"
+    },
+    {
+      "name": "Electrodomésticos",
+      "id": "zkpyGq4"
+    }
+  ],
+  "product": [
+    {
+      "id": "1",
+      "categoryId": "1",
+      "sku": "ABD001",
+      "name": "TV Samsung",
+      "price": 11750
+    },
+    {
+      "id": "2",
+      "categoryId": "1",
+      "sku": "ABC002",
+      "name": "Bose Micro",
+      "price": 2500
+    },
+    {
+      "id": "3",
+      "categoryId": "2",
+      "sku": "ABC003",
+      "name": "iPhone X",
+      "price": 19800
+    },
+    {
+      "id": "4",
+      "sku": "ABC004",
+      "categoryId": "3",
+      "name": "PlayStation 4",
+      "price": 8650.5
+    },
+    {
+      "id": "5",
+      "categoryId": "4",
+      "sku": "ABC005",
+      "name": "MacBook Pro 15''",
+      "price": 24200
+    },
+    {
+      "name": "Máquina de Café",
+      "sku": "ABC006",
+      "price": 2150,
+      "categoryId": "zkpyGq4",
+      "id": "uETgNJF"
+    }
+  ]
+}
