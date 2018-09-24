@@ -16,10 +16,10 @@ const User = `
 export const types = () => [User];
 
 export const typeResolvers = {
-/*   Query: {
+  User: {
     role(parent, args) {
       return axios.get(config.jsonServerUrl + '/role/' + parent.roleId)
         .then(res => res.data)                
     }
-  } */
+  }
 };
