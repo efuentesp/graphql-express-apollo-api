@@ -1,56 +1,56 @@
 {
   "role": [
     {
-        "id": "1",
-        "code": "ADMIN",
-        "name": "Administrator",
-        "enabled": true
+      "id": "1",
+      "code": "ADMIN",
+      "name": "Administrator",
+      "enabled": true
     },
     {
-        "id": "2",
-        "code": "USER",
-        "name": "Comprador",
-        "enabled": true     
+      "id": "2",
+      "code": "USER",
+      "name": "Comprador",
+      "enabled": true
     }
   ],
   "user": [
     {
-        "id": "1",
-        "username": "admin",
-        "password": "admin",
-        "enabled": true,
-        "roleId": "1"
+      "id": "1",
+      "username": "admin",
+      "password": "admin",
+      "enabled": true,
+      "roleId": "1"
     },
     {
-        "id": "2",
-        "username": "efuentesp",
-        "password": "password",
-        "enabled": true,
-        "roleId": "2"
+      "id": "2",
+      "username": "efuentesp",
+      "password": "password",
+      "enabled": true,
+      "roleId": "2"
     }
   ],
   "permission": [
-      {
-          "id": "1",
-          "code": "*",
-          "name": "All Permissions",
-          "enabled": true
-      },
-      {
-        "id": "2",
-        "code": "ADD_PRODUCT",
-        "name": "Agregar Producto",
-        "enabled": true
+    {
+      "id": "1",
+      "code": "*",
+      "name": "All Permissions",
+      "enabled": true
+    },
+    {
+      "id": "2",
+      "code": "ADD_PRODUCT",
+      "name": "Agregar Producto",
+      "enabled": true
     }
   ],
   "permissions-assigned": [
-      {
-          "roleId": "1",
-          "permissionId": "1"
-      },
-      {
-        "roleId": "2",
-        "permissionId": "2"
+    {
+      "roleId": "1",
+      "permissionId": "1"
+    },
+    {
+      "roleId": "2",
+      "permissionId": "2"
     }
   ],
   "category": [

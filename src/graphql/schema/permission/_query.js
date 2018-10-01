@@ -5,8 +5,8 @@ import config from '../../../config';
 
 const Query = `
   extend type Query {
-    userList: [User],
-    user(id: ID!): User
+    permissionList: [Permission],
+    permission(id: ID!): Permission
   }
 `;
 
@@ -14,12 +14,12 @@ export const queryTypes = () => [Query];
 
 export const queryResolvers = {
   Query: {
-    userList(parent, args) {
-      return axios.get(config.jsonServerUrl + '/user')
+    permissionList(parent, args) {
+      return axios.get(config.jsonServerUrl + '/permission')
         .then(res => res.data)
     },
-    user(parent, args) {
-      return axios.get(config.jsonServerUrl + '/user/' + args.id)
+    permission(parent, args) {
+      return axios.get(config.jsonServerUrl + '/permission/' + args.id)
         .then(res => res.data)      
     }
   }
