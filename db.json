@@ -38,6 +38,12 @@
     },
     {
       "id": "2",
+      "code": "ADD_CATEGORY",
+      "name": "Agregar Categoria de Productos",
+      "enabled": true
+    },
+    {
+      "id": "3",
       "code": "ADD_PRODUCT",
       "name": "Agregar Producto",
       "enabled": true
@@ -51,6 +57,10 @@
     {
       "roleId": "2",
       "permissionId": "2"
+    },
+    {
+      "roleId": "2",
+      "permissionId": "3"
     }
   ],
   "category": [
